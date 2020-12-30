@@ -1,6 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { useRef, useState } from "react";
 import { BlobServiceClient } from "@azure/storage-blob";
 import { v4 as uuidv4 } from "uuid";
 
